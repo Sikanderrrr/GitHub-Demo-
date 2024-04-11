@@ -7,6 +7,8 @@ class LoginDemo {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel panel = new JPanel();
+        //set background colour
+        panel.SetBackground(Color.LIGHT_GREY); // Choose your desired background color
         frame.add(panel);
         placeComponents(panel);
 
